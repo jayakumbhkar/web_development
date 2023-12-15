@@ -1,0 +1,111 @@
+.container{
+    border: 2px solid ;
+    margin: 20px ;
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    background-color: cadetblue;
+}
+h3{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Get Output */
+.get-input{
+    border: 2px solid ;
+    width: 300px;
+    height: 150px;
+    margin: 20px ;
+    padding: 30px;
+}
+/* <!-- Chip  change Classes or add classes-->---------------------------------------------------------------------- */
+.all-chips{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chip{
+    border: 2px solid;
+    margin: 20px;
+    width: 80px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.selected-chip{
+    background-color: green;
+    color: rgb(127, 233, 127);
+    width: 200px;
+}
+.chip:hover{
+    background-color: rgb(209, 122, 122);
+}
+
+/*     <!-- Concate Input Names -->------------------------------------------------------------------------------ */
+
+.outer{
+    border: 3px solid red;
+    width: 600px;
+    height: 100px;
+    padding: 40px;
+}
+
+/*   change Color on even  ---------------------------------------------------------------------------------------------------- */
+.outerBox{
+    border: 2px solid black;
+    height:100px;
+    margin: 20px;
+    padding: 30px;
+}
+.boxes{
+    border: 2px solid brown;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+
+/* Create Element----------------------------------------------------------------------------------- */
+
+/* Create to-do list  ------------------------------------------------------------------------------ */
+
+
+/*  Change the color of Row on click button ------------------------------------------------------------*/
+
+.new-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height:200px;
+}
+
+.bg-purple{
+    background-color: blueviolet;
+}
+
+/*change color of lists  ------------------------------------------------------------------------------------------------------------- */
+
+.list-checkbox{
+    height: 20px;
+    width:20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.bg-blue{
+    background-color: blue;
+}

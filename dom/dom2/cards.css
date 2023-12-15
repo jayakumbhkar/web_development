@@ -1,0 +1,69 @@
+ /* Cards */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container{
+    border: 2px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+   border: 2px solid red;
+   border-radius: 40px;
+   height: 400px;
+   width: 300px;
+   margin: 10px;
+   padding: 20px;
+   background-color: chocolate;
+   font-weight: bold;
+   font-size: 20px;
+}
+.card-btn{
+    margin-top:300px ;   
+}
+
+.scale-cards{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+/* <!-- Created list and change background color---------------------------------------------------------------------- */
+.box{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 20px;
+}
+
+.text-content{
+    background-color: rgb(196, 103, 103);
+   
+}
+.new-BTN{
+    border: 2px solid;
+    width:15px;
+    height: 15px; 
+    margin: 10px;
+}
+
+.bg-green{
+    background-color: green;   
+}
+
+/*  fare calculation of cities Source Destination------------------------------------------------------------------------------- */
+
+
+
+
+/* <!-- setAttribute -->----------------------------------------------------------------------------------------------------- */
+.content{
+    border: 2px solid black;
+    border-radius: 10px ;
+    background-color: chocolate;
+}
+

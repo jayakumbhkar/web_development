@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <!-- Cards -->
+    <div class="container">
+        <div class="card"><p>Card-1</p><button class="card-btn">BUTTON</button></div>
+        <div class="card"><p>Card-2</p><button class="card-btn">BUTTON</button></div>
+        <div class="card"><p>Card-3</p><button class="card-btn">BUTTON</button></div>
+        <div class="card"><p>Card-4</p><button class="card-btn">BUTTON</button></div>
+    </div>
+
+<hr><hr><br>
+<!-- Created list and change background color -->
+    <div class="box">
+        <label>Fill this list</label>
+        <input type="text" placeholder="Enter Something" id="Input-Input">
+        <button id="btn-btn">Submit</button>
+
+        <ul id="todo-list-list" type="none">
+
+        </ul>
+
+    </div>
+<hr><hr><br>
+
+<!-- fare calculation of cities Source Destination -->
+    <h3>Fare Calculation</h3>
+    <span>
+        <label for="select">Source:</label>
+        <select name="source" id="selectsrc">
+           <option value="Indore">Indore</option>
+           <option value="Ratlam">Ratlam</option>
+           <option value="Dahod">Dahod</option>
+           <option value="Vadodara">Vadodara</option>
+           <option value="Anand">Anand</option>
+        </select>
+      </span>
+      
+      <span>
+        <label for="selectDest"> Destination: </label>
+        <select name="destination" id="selectDest">
+           <option value="Indore">Indore</option>
+           <option value="Ratlam">Ratlam</option>
+           <option value="Dahod">Dahod</option>
+           <option value="Vadodara">Vadodara</option>
+           <option value="Anand">Anand</option>
+        </select>
+      </span>
+      
+      <span><button id="search">Search</button></span> 
+      <p><span>outputSource:</span> <span id="s1"></span></p>
+      <p><span>outputDestination:</span> <span id="d1"></span></p>
+      <p><span>TotalFare: </span> <span id="f1"></span></p>
+<br><hr><br><br>
+
+<!-- after method -->
+<h3>After Method</h3>
+
+<ul id="unorder-list">
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+    <li>list4</li>
+    <li>list5</li>
+</ul>
+<div id="New-Tag">
+    New Tag
+</div>
+
+<div id="New-Second-Tag">
+    New Second Tag
+</div>
+
+<br><hr><br><br>
+
+<!-- setAttribute -->
+
+    <p id="para">
+        The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, 
+        and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; 
+        on templates, websites, and stock designs. 
+    </p>
+<br><hr><br><br>
+<!-- Select Product Name and Brand Name -->
+<h3>Select Product Name and Brand Name</h3>
+<div>
+    <label>products:</label>
+    <select id="selectproduct">
+        <option value="Mobile">Mobile</option>
+        <option value="Watch">Watch</option>
+    </select>
+  
+    <label>Brand:</label>
+    <select id="selectbrand">
+        <option value="Apple">Apple</option>
+        <option value="Vivo">Vivo</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Titan">Titan</option>
+        <option value="Timex">Timex</option>
+    </select>
+  
+    <button id="selectbtn">Select</button>
+  
+  </div>
+  
+  <div>
+    Product : <span id="myProduct"></span>
+  </div>
+  
+  <div>
+    Brand : <span id="myBrand"></span>
+  </div>
+  
+  <div>
+    Price : <span id="myPrice"></span>
+  </div>
+  <br><hr><br><br>
+
+  
+
+
+    <script src="cards.js"></script>
+</body>
+</html>

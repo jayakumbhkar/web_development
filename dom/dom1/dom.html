@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <!-- InnerText -->
+    <h3>Change inner Text on click button</h3>
+    <div class="container">
+        <h1 id="text">Hello World</h1>
+        <button id="btn">change the text</button>
+    </div>
+ <hr><hr><br><br>
+      <!-- get Output -->
+ <h3>Get OutPut</h3>   
+    <div class="get-input">
+        <input type="text" id="text-input">
+        <button id="bttn">print output</button>
+
+        <p>Output: <span id="get-output"></span></p>
+    </div>
+<hr><hr><br><br>
+<!-- Chip  change Classes or add classes-->
+<h3>Change the classes or add classes</h3>
+    <div class="all-chips">
+        <div id="tab-1" class="chip">Tab1</div>
+        <div id="tab-2" class="chip">Tab2</div>
+        <div id="tab-3" class="chip">Tab3</div>
+
+        <p>Final: <span id="final"></span></p>
+    </div>
+
+<hr><hr><br><br>
+<!-- Concate Input Names -->
+<h3>Concate Input Names</h3>
+    <div class="outer">
+      <label>FirstName: <input type="text" id="input-first" placeholder="Enter First Name"></label>  
+       <label>LastNAme: <input type="text" id="input-last" placeholder="Enter Last Name"></label> 
+        <button id="name-btn">BUTTON</button>
+
+        <div>Concate Name : <span id="concatination"></span></div>
+
+    </div>
+
+<hr><hr><br><br>
+<!--  change Color on even  -->
+<h3>Change Color of Even </h3>
+    <div class="outerBox">
+        <span class="boxes">Box1</span>
+        <span class="boxes">Box2</span>
+        <span class="boxes">Box3</span>
+        <span class="boxes">Box4</span>
+
+        <button id="evenBtn">submit</button>
+
+    </div>
+<hr><hr><br><br>
+<!--  Create Element-------->
+<h3>Create New Element</h3>
+    <div id="create-Element">
+            Inner Text
+    </div>
+<hr><hr><br><br>
+<!-- Create to-do list  -->
+<h3>Create todo list</h3>
+    <input type="text" id="input-text" placeholder="Enter Text">
+    <button id="submit-btn">submit</button>
+
+    <table id="todo-list" border="2px solid;" style="border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+    </table>
+<hr><hr><br><br>
+
+<!-- get Elementby Name -->
+<h3>Get ElementsBy Name</h3>
+    <div>
+        <label for="">
+        <input type="radio" name="language" id="java">
+        Java
+        </label>
+        <label for="">
+        <input type="radio" name="language" id="javascript">
+        JavaScript
+        </label>
+        <label for="">
+        <input type="radio" name="language" id="python">
+        Python
+        </label>
+
+        <button id="btn-submit">submit</button>
+        <p>Output: <span id="submit-ans"></span></p>
+    </div>
+<hr><hr><br><br>
+<!-- Check if a string can convert into number or not -->
+<h3>Check if a string can convert into number or not</h3>
+    <div class="string-box">
+        <label>Enter Input:</label>
+        <input type="text" id="input-str">
+        <button id="str-btn">Submit</button>
+        <p>Output: <span id="str"></span></p>
+
+    </div>
+<hr><hr><br><br>
+
+<!-- Change the color of Row on click button  -->
+<h3>Change color of Rows</h3>
+
+    <div class="new-table">
+        <table id="new-todo-list" border="2px solid" style="border-collapse: collapse; text-align: center; width: 500px;">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>23</td>
+                    <td><button>change color</button></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>24</td>
+                    <td><button>change color</button></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>25</td>
+                    <td><button>change color</button></td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>26</td>
+                    <td><button>change color</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+<hr><hr><br><br>
+<!-- change color of lists -->
+<h3>Change color of lists on click checkbox</h3>
+    <ul id="todo-new-list"  type="none">
+        <li><button class="list-checkbox"></button> <span>list1</span></li>
+        <li><button class="list-checkbox"></button> <span>list2</span></li>
+        <li><button class="list-checkbox"></button> <span>list3</span></li>
+        <li><button class="list-checkbox"></button> <span>list4</span></li>
+        <li><button class="list-checkbox"></button> <span>list5</span></li>
+    </ul>
+<hr><hr><br><br>
+
+<!-- ChildNOdes -->
+<h3>ChildNOdes</h3>
+
+    <div id="parent">
+        <div id="child-1">child 1</div>
+        <div id="child-2">child 2</div>
+        <div id="child-3">child 3</div>
+        <div id="child-4">child 4</div>
+
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>
